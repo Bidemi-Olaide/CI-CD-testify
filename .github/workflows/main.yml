@@ -7,3 +7,5 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: echo "Bidemi has big head"
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
+      - run: python main.py
