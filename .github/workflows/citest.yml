@@ -1,5 +1,4 @@
-name: learn-github-actions
-# run-name: Bidemi is learning GitHub Actions
+name: GitHub Actios Demo
 on: [push]
 jobs:
   Test:
