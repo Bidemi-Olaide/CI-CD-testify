@@ -1,0 +1,9 @@
+name: learn-github-actions
+run-name: Bidemi is learning GitHub Actions
+on: [push]
+jobs:
+  another-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: echo "Bidemi has big head"
